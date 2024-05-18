@@ -30,16 +30,16 @@ const katex = require('rehype-katex');
 async function CreateConfig() {
     const primaryColor = '#5391ba';
     const mdxMermaid = await
-    import ('mdx-mermaid')
+        import('mdx-mermaid')
     /** @type {import('@docusaurus/types').Config} */
     const config = {
-        title: 'WjWei | Blog',
-        tagline: '&quot;My Beatuifal Dark Twisted Fantsty&quot;',
+        title: 'HangboZhu | Blog',
+        tagline: '&quot;全局最优很难，局部最优不易&quot;',
         url: 'https://www.wjwei.blog',
         baseUrl: '/',
         onBrokenLinks: 'ignore',
         onBrokenMarkdownLinks: 'warn',
-        favicon: 'img/Avatar-s.png',
+        favicon: 'img/my.webp',
 
         // GitHub pages deployment config.
         // If you aren't using GitHub pages, you don't need these.
@@ -103,18 +103,18 @@ async function CreateConfig() {
         ],
 
         themeConfig:
-        /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+            /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
             ({
-            navbar: {
-                title: 'WjWei Blog',
-                logo: {
-                    alt: 'My Site Logo',
-                    src: 'img/Avatar-s.png',
-                    srcDark: 'img/Avatar-dark-s.png',
-                    width: 48,
-                    height: 48
-                },
-                items: [{
+                navbar: {
+                    title: 'HangboZhu Blog',
+                    logo: {
+                        alt: 'My Site Logo',
+                        src: 'img/my.webp',
+                        srcDark: 'img/my.webp',
+                        width: 48,
+                        height: 48
+                    },
+                    items: [{
                         type: 'doc',
                         docId: 'intro',
                         position: 'left',
@@ -146,26 +146,26 @@ async function CreateConfig() {
                         label: '🎉Community',
                         position: 'left',
                         items: [{
-                                label: 'Google Scholar',
-                                href: 'https://scholar.google.com/citations?user=AO4Qqk4AAAAJ&',
-                            },
-                            {
-                                label: 'Matrix',
-                                href: 'https://matrix.to/#/@wjwei:matrix.org',
-                            },
-                            {
-                                label: "🧑‍🏫SongtaoGui's Blog",
-                                href: 'https://songtaogui.github.io/',
-                            },
-                            {
-                                label: "💃JingyunLuo's Blog",
-                                href: 'https://jingyunluo.github.io/',
-                            },
-                            {
-                                label: "🎤️talks",
-                                href: "/talks",
-                                target: "_blank",
-                            }
+                            label: 'Google Scholar',
+                            href: 'https://scholar.google.com/citations?user=AO4Qqk4AAAAJ&',
+                        },
+                        // {
+                        //     label: 'Matrix',
+                        //     href: 'https://matrix.to/#/@wjwei:matrix.org',
+                        // },
+                        // {
+                        //     label: "🧑‍🏫SongtaoGui's Blog",
+                        //     href: 'https://songtaogui.github.io/',
+                        // },
+                        // {
+                        //     label: "💃JingyunLuo's Blog",
+                        //     href: 'https://jingyunluo.github.io/',
+                        // },
+                        {
+                            label: "🎤️talks",
+                            href: "/talks",
+                            target: "_blank",
+                        }
                             // {
                             //     type: 'doc',
                             //     label: 'my-first-docs/doc-A',
@@ -178,77 +178,77 @@ async function CreateConfig() {
                         type: 'search',
                         position: 'right',
                     },
+                    ],
+                    hideOnScroll: true,
+                    // style: 'primary'
+                },
+                footer: {
+                    style: 'dark',
+                    copyright: `Copyright © ${new Date().getFullYear()} HangboZhu, Inc. Built with Docusaurus.`,
+                },
+                prism: {
+                    theme: lightCodeTheme,
+                    darkTheme: darkCodeTheme,
+                    magicComments: [
+                        // Remember to extend the default highlight class name as well!
+                        {
+                            className: 'theme-code-block-highlighted-line',
+                            line: 'highlight-next-line',
+                            block: { start: 'highlight-start', end: 'highlight-end' },
+                        },
+                        {
+                            className: 'code-block-error-line',
+                            line: 'This will error',
+                        },
+                    ],
+                    additionalLanguages: ['rust', 'r'],
+                },
+                docs: {
+                    sidebar: {
+                        hideable: true,
+                        // autoCollapseCategories: true,
+                    }
+                },
+                announcementBar: {
+                    id: 'supportus', // Any value that will identify this message.
+                    content: "If you like my blog, give me a <a target='_blank' rel='noopener noreferrer' href='https://github.com/wjwei-handsome/wjwei-docusaurus/'>star🌟</a>",
+                    backgroundColor: '#fafbfc',
+                    textColor: '#091E42',
+                    isCloseable: true,
+                },
+                // algolia: {
+                //     // The application ID provided by Algolia
+                //     appId: 'NZ1SNA604X',
+
+                //     // Public API key: it is safe to commit it
+                //     apiKey: 'a212e7276d322dbd37ddb204c81190c3',
+
+                //     indexName: 'wwj-blog',
+
+                //     // Optional: see doc section below
+                //     contextualSearch: true,
+
+                //     // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
+                //     externalUrlRegex: 'external\\.com|domain\\.com',
+
+                //     // Optional: Algolia search parameters
+                //     searchParameters: {},
+
+                //     // Optional: path for search page that enabled by default (`false` to disable it)
+                //     searchPagePath: 'search',
+
+                //     //... other Algolia params
+                // },
+                metadata: [
+                    { name: 'keywords', content: 'wjwei, blog, bioinfomatics' },
+                    { name: 'theme-color', content: primaryColor, media: "(prefers-color-scheme: light)" },
+                    { name: 'theme-color', content: primaryColor, media: "(prefers-color-scheme: dark)" }
                 ],
-                hideOnScroll: true,
-                // style: 'primary'
-            },
-            footer: {
-                style: 'dark',
-                copyright: `Copyright © ${new Date().getFullYear()} WenjieWei, Inc. Built with Docusaurus.`,
-            },
-            prism: {
-                theme: lightCodeTheme,
-                darkTheme: darkCodeTheme,
-                magicComments: [
-                    // Remember to extend the default highlight class name as well!
-                    {
-                        className: 'theme-code-block-highlighted-line',
-                        line: 'highlight-next-line',
-                        block: { start: 'highlight-start', end: 'highlight-end' },
-                    },
-                    {
-                        className: 'code-block-error-line',
-                        line: 'This will error',
-                    },
-                ],
-                additionalLanguages: ['rust', 'r'],
-            },
-            docs: {
-                sidebar: {
-                    hideable: true,
-                    // autoCollapseCategories: true,
+                tableOfContents: {
+                    minHeadingLevel: 2,
+                    maxHeadingLevel: 4,
                 }
-            },
-            announcementBar: {
-                id: 'supportus', // Any value that will identify this message.
-                content: "If you like my blog, give me a <a target='_blank' rel='noopener noreferrer' href='https://github.com/wjwei-handsome/wjwei-docusaurus/'>star🌟</a>",
-                backgroundColor: '#fafbfc',
-                textColor: '#091E42',
-                isCloseable: true,
-            },
-            // algolia: {
-            //     // The application ID provided by Algolia
-            //     appId: 'NZ1SNA604X',
-
-            //     // Public API key: it is safe to commit it
-            //     apiKey: 'a212e7276d322dbd37ddb204c81190c3',
-
-            //     indexName: 'wwj-blog',
-
-            //     // Optional: see doc section below
-            //     contextualSearch: true,
-
-            //     // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
-            //     externalUrlRegex: 'external\\.com|domain\\.com',
-
-            //     // Optional: Algolia search parameters
-            //     searchParameters: {},
-
-            //     // Optional: path for search page that enabled by default (`false` to disable it)
-            //     searchPagePath: 'search',
-
-            //     //... other Algolia params
-            // },
-            metadata: [
-                { name: 'keywords', content: 'wjwei, blog, bioinfomatics' },
-                { name: 'theme-color', content: primaryColor, media: "(prefers-color-scheme: light)" },
-                { name: 'theme-color', content: primaryColor, media: "(prefers-color-scheme: dark)" }
-            ],
-            tableOfContents: {
-                minHeadingLevel: 2,
-                maxHeadingLevel: 4,
-            }
-        }),
+            }),
         themes: [
             // ... Your other themes.
             [
@@ -273,7 +273,7 @@ async function CreateConfig() {
             type: 'text/css',
             integrity: 'sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM',
             crossorigin: 'anonymous',
-        }, ],
+        },],
     };
     return config;
 }

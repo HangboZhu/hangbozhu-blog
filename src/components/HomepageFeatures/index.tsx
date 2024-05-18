@@ -88,8 +88,8 @@ export const features: feature[] = [
   {
     title: "Enthused To CS",
     sources: {
-      light: "/img/cs.png",
-      dark: "/img/cs-dark.png",
+      light: "/img/cs.webp",
+      dark: "/img/cs.webp",
     },
     description: (
       // <>
@@ -124,8 +124,8 @@ export const features: feature[] = [
   {
     title: "Love My Life",
     sources: {
-      light: "/img/life.png",
-      dark: "/img/life-dark.png",
+      light: "/img/life.webp",
+      dark: "/img/life.webp",
     },
     description: (
       // <>
@@ -167,8 +167,8 @@ export const features: feature[] = [
   {
     title: "Bland Student",
     sources: {
-      light: "/img/research.png",
-      dark: "/img/research-dark.png",
+      light: "/img/study.webp",
+      dark: "/img/study.webp",
     },
     description: (
       <>

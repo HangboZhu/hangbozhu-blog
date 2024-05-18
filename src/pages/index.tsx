@@ -46,8 +46,8 @@ const slides = [
   <header
     className={clsx("hero hero--primary", styles.heroBanner, styles.slide)}>
     <div className="container">
-      <img className={styles.logo} alt="Logo" src="/img/Avatar-s.png" />
-      <h1 className="hero__title">Wenjie Wei 魏文杰</h1>
+      <img className={styles.logo} alt="Logo" src="/img/my.webp" />
+      <h1 className="hero__title">HangboZhu 朱杭波</h1>
       <p className="hero__subtitle">&quot;My Beatuifal Dark Twisted Fantsty&quot;</p>
       <div className={styles.button}>
         <Link
@@ -77,39 +77,39 @@ const slides = [
       </div>
     </div>
   </header>,
-  <header
-    className={clsx("hero hero--primary", styles.heroBanner, styles.slide)}>
-    <img className={styles.bkgimg} src="/img/blog/2024_1-2_bg.jpeg" />
-    <div className={clsx("container", styles.storycontainer)}>
-      <h1 className="hero__title">龙年🐲大吉</h1>
-      <p className="hero__subtitle"></p>
-      <div className={styles.button}>
-        <Link
-          className={clsx(
-            "button button--outline button--secondary button--lg",
-          )}
-          to="/blog/2024_1-2_fun">
-          Read more
-        </Link>
-      </div>
-    </div>
-  </header>,
-  <div
-    className={clsx(styles.heroBanner, styles.slide)}
-    style={{
-      backgroundImage: "url(/img/zeamap.svg)",
-      backgroundRepeat: "no-repeat",
-      backgroundSize: "100%, 100%"
-    }}>
-    <div className={clsx(styles.button, styles.readMore)}>
-      <Link
-        className="button button--outline button--lg"
-        style={{ color: "#4071BE" }}
-        href="https://db.cngb.org/zeamap">
-        <h1 className="hero__title">ZEAMAP Database</h1>
-      </Link>
-    </div>
-  </div>
+  // <header
+  //   className={clsx("hero hero--primary", styles.heroBanner, styles.slide)}>
+  //   <img className={styles.bkgimg} src="/img/blog/2024_1-2_bg.jpeg" />
+  //   <div className={clsx("container", styles.storycontainer)}>
+  //     <h1 className="hero__title">龙年🐲大吉</h1>
+  //     <p className="hero__subtitle"></p>
+  //     <div className={styles.button}>
+  //       <Link
+  //         className={clsx(
+  //           "button button--outline button--secondary button--lg",
+  //         )}
+  //         to="/blog/2024_1-2_fun">
+  //         Read more
+  //       </Link>
+  //     </div>
+  //   </div>
+  // </header>,
+  // <div
+  //   className={clsx(styles.heroBanner, styles.slide)}
+  //   style={{
+  //     backgroundImage: "url(/img/zeamap.svg)",
+  //     backgroundRepeat: "no-repeat",
+  //     backgroundSize: "100%, 100%"
+  //   }}>
+  //   <div className={clsx(styles.button, styles.readMore)}>
+  //     <Link
+  //       className="button button--outline button--lg"
+  //       style={{ color: "#4071BE" }}
+  //       href="https://db.cngb.org/zeamap">
+  //       <h1 className="hero__title">ZEAMAP Database</h1>
+  //     </Link>
+  //   </div>
+  // </div>
 ];
 
 export default function Home(): JSX.Element {
