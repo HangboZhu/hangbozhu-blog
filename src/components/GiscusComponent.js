@@ -10,10 +10,10 @@ export default function GiscusComponent() {
   return (
     <div style={{marginTop:'30px'}}>
     <Giscus
-      repo="wjwei-handsome/wjwei-docusaurus"
-      repoId="R_kgDOIB2dAQ"
+      repo="HangboZhu/hangbozhu-blog"
+      repoId="R_kgDOL9Vk4Q"
       category="General"
-      categoryId="DIC_kwDOIB2dAc4CRiFZ"
+      categoryId="DIC_kwDOL9Vk4c4Cfdbp"
       mapping="pathname"
       term="Welcome to @giscus/react component!"
       strict="0"

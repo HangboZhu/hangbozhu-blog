@@ -35,7 +35,7 @@ async function CreateConfig() {
     const config = {
         title: 'HangboZhu | Blog',
         tagline: '&quot;全局最优很难，局部最优不易&quot;',
-        url: 'https://www.wjwei.blog',
+        url: 'https://www.hangbozhu.space/',
         baseUrl: '/',
         onBrokenLinks: 'ignore',
         onBrokenMarkdownLinks: 'warn',
@@ -43,8 +43,8 @@ async function CreateConfig() {
 
         // GitHub pages deployment config.
         // If you aren't using GitHub pages, you don't need these.
-        organizationName: 'Wenjiewei', // Usually your GitHub org/user name.
-        projectName: 'wjwei-docusaurus', // Usually your repo name.
+        organizationName: 'HangboZhu', // Usually your GitHub org/user name.
+        projectName: 'hangbozhu-blog', // Usually your repo name.
 
         // Even if you don't use internalization, you can use this field to set useful
         // metadata like html lang. For example, if your site is Chinese, you may want
@@ -63,7 +63,7 @@ async function CreateConfig() {
                         sidebarPath: require.resolve('./sidebars.js'),
                         // Please change this to your repo.
                         // Remove this to remove the "edit this page" links.
-                        editUrl: 'https://github.com/wjwei-handsome/wjwei-docusaurus/tree/main/',
+                        editUrl: 'https://github.com/HangboZhu/hangbozhu-blog/tree/main/',
                         // docTagsListComponent: '@theme/DocTagsListPage',
                         remarkPlugins: [mdxMermaid.default, math],
                         rehypePlugins: [katex],
@@ -77,7 +77,7 @@ async function CreateConfig() {
                             defaultReadingTime({ content, options: { wordsPerMinute: 300 } }),
                         // Please change this to your repo.
                         // Remove this to remove the "edit this page" links.
-                        editUrl: 'https://github.com/wjwei-handsome/wjwei-docusaurus/tree/main/',
+                        editUrl: 'https://github.com/HangboZhu/hangbozhu-blog/tree/main/',
                         blogSidebarTitle: 'All our posts',
                         blogDescription: 'This is a blog description',
                         blogTitle: 'My Site Blog',
@@ -131,7 +131,7 @@ async function CreateConfig() {
                         position: 'left'
                     },
                     {
-                        href: 'https://github.com/wjwei-handsome/wjwei-docusaurus/',
+                        href: 'https://github.com/HangboZhu/hangbozhu-blog/',
                         position: 'right',
                         className: 'header-github-link',
                         'aria-label': 'Github repository',
@@ -211,7 +211,7 @@ async function CreateConfig() {
                 },
                 announcementBar: {
                     id: 'supportus', // Any value that will identify this message.
-                    content: "If you like my blog, give me a <a target='_blank' rel='noopener noreferrer' href='https://github.com/wjwei-handsome/wjwei-docusaurus/'>star🌟</a>",
+                    content: "If you like my blog, give me a <a target='_blank' rel='noopener noreferrer' href='https://github.com/HangboZhu/hangbozhu-blog/'>star🌟</a>",
                     backgroundColor: '#fafbfc',
                     textColor: '#091E42',
                     isCloseable: true,
