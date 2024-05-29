@@ -48,7 +48,7 @@ const slides = [
     <div className="container">
       <img className={styles.logo} alt="Logo" src="/img/my.webp" />
       <h1 className="hero__title">HangboZhu 朱杭波</h1>
-      <p className="hero__subtitle">&quot;My Beatuifal Dark Twisted Fantsty&quot;</p>
+      <p className="hero__subtitle">&quot;My Tedious Life Twisted Fantsty&quot;</p>
       <div className={styles.button}>
         <Link
           className={clsx(
@@ -118,7 +118,7 @@ export default function Home(): JSX.Element {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="wenjiewei wjwei weiwenjie blog bioinfomatic">
+      description="hangbozhu hbzhu hangbozhu blog bioinfomatic">
       {/* <HomepageHeader /> */}
       <CarouselProvider
         className={styles.carousel}
