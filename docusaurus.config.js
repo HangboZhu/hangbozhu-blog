@@ -241,7 +241,7 @@ async function CreateConfig() {
                 //     //... other Algolia params
                 // },
                 metadata: [
-                    { name: 'keywords', content: 'wjwei, blog, bioinfomatics' },
+                    { name: 'keywords', content: 'hangbozhu, blog, bioinfomatics' },
                     { name: 'theme-color', content: primaryColor, media: "(prefers-color-scheme: light)" },
                     { name: 'theme-color', content: primaryColor, media: "(prefers-color-scheme: dark)" }
                 ],
