@@ -1,9 +1,0 @@
-{
-    "label": "Rust - Basics",
-    "position": 1,
-    "link": {
-        "type": "generated-index",
-        "description": "Rust 基础语法、数据类型、项目结构等"
-    },
-    "collapsed": true
-}

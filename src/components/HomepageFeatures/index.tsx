@@ -212,6 +212,50 @@ function Feature({
   );
 }
 
+// export default function HomepageFeatures(): JSX.Element {
+//   return (
+//     <section className={styles.features}>
+//       <div className="container" style={{ "maxWidth": "100%" }}>
+//         <div className="row">
+//           {features.map((props, idx) => (
+//             <Feature key={idx} index={idx} {...props} />
+//           ))}
+//         </div>
+//       </div>
+
+//       <CodeBlock language='text' className={styles.codeblock} showLineNumbers={false}>
+//         $ wjwei --help{'\n'}{'\n'}
+//         Name: Wenjie Wei🇨🇳{'\n'}{'\n'}
+//         Version: {new Date().getFullYear()}-{new Date().getMonth() + 1}-{new Date().getDate()}{'\n'}{'\n'}
+//         Usage: wjwei [OPTIONS] {'<'}COMMANDS{'>'}{'\n'}{'\n'}
+
+//         Commands:{'\n'}
+//         {'    '}bioinfo: {'\n'}
+//         {'    '}{'    '}🧬Play biological problems with code. Years of experience in bioinformatics analysis, working in the field of genomics.{'\n'}
+//         {'    '}coder: {'\n'}
+//         {'    '}{'    '}🛠️Get my hands dirty! Always be a rookie and stay hungry. Enjoy contributing to the bioinfo community.{'\n'}
+//         {'    '}life: {'\n'}
+//         {'    '}{'    '}🙌Work hard, play harder! Enjoy dopamine and endorphins from nature🏞, food🥑, coffee☕️, movies🎥, music🎧 and sports🏋.{'\n'}
+//         {'    '}student: {'\n'}
+//         {'    '}{'    '}👨‍🎓Master student of Crop genomics in the National Laboratory of Crop Genetic Improvement, HZAU.{'\n'}
+//         {'    '}{'    '}💎PhD candidate of WestLake University.
+//         {'\n'}
+//         {'    '}{'    '}💡Interested in: 1.graph-pan-genome 2.complex phenotye ~ multi omics 3.database/tools.
+//         {'\n'}
+//         {'    '}gamer: {'\n'}
+//         {'    '}{'    '}🎮Hundreds of hours of Zelda/Pokemon/Stardew Valley{'\n'}{'\n'}
+//         Options:{'\n'}
+//         {'    '}-l, --linux    {'    '}💻Unix/Commmand Line/Fish enthusiast    [default: true]{'\n'}
+//         {'    '}-r, --rust     {'    '}🦀YES! I'm a Rustacean!    [default: true]{'\n'}
+//         {'    '}-p, --python   {'    '}🐍Use for Django && quickly develop simple scripts.    [default: true]{'\n'}
+//         {'    '}-v, --visualize{'    '}📊Prefer vega-lite/R for data presentation.    [default: true]{'\n'}
+//         {'    '}-f, --frontend {'    '}🌐Stay at the basic stage for Vue/React, just google. [default: false]{'\n'}
+//       </CodeBlock>
+
+//     </section>
+//   );
+// }
+
 export default function HomepageFeatures(): JSX.Element {
   return (
     <section className={styles.features}>
@@ -224,32 +268,7 @@ export default function HomepageFeatures(): JSX.Element {
       </div>
 
       <CodeBlock language='text' className={styles.codeblock} showLineNumbers={false}>
-        $ wjwei --help{'\n'}{'\n'}
-        Name: Wenjie Wei🇨🇳{'\n'}{'\n'}
-        Version: {new Date().getFullYear()}-{new Date().getMonth() + 1}-{new Date().getDate()}{'\n'}{'\n'}
-        Usage: wjwei [OPTIONS] {'<'}COMMANDS{'>'}{'\n'}{'\n'}
-
-        Commands:{'\n'}
-        {'    '}bioinfo: {'\n'}
-        {'    '}{'    '}🧬Play biological problems with code. Years of experience in bioinformatics analysis, working in the field of genomics.{'\n'}
-        {'    '}coder: {'\n'}
-        {'    '}{'    '}🛠️Get my hands dirty! Always be a rookie and stay hungry. Enjoy contributing to the bioinfo community.{'\n'}
-        {'    '}life: {'\n'}
-        {'    '}{'    '}🙌Work hard, play harder! Enjoy dopamine and endorphins from nature🏞, food🥑, coffee☕️, movies🎥, music🎧 and sports🏋.{'\n'}
-        {'    '}student: {'\n'}
-        {'    '}{'    '}👨‍🎓Master student of Crop genomics in the National Laboratory of Crop Genetic Improvement, HZAU.{'\n'}
-        {'    '}{'    '}💎PhD candidate of WestLake University.
-        {'\n'}
-        {'    '}{'    '}💡Interested in: 1.graph-pan-genome 2.complex phenotye ~ multi omics 3.database/tools.
-        {'\n'}
-        {'    '}gamer: {'\n'}
-        {'    '}{'    '}🎮Hundreds of hours of Zelda/Pokemon/Stardew Valley{'\n'}{'\n'}
-        Options:{'\n'}
-        {'    '}-l, --linux    {'    '}💻Unix/Commmand Line/Fish enthusiast    [default: true]{'\n'}
-        {'    '}-r, --rust     {'    '}🦀YES! I'm a Rustacean!    [default: true]{'\n'}
-        {'    '}-p, --python   {'    '}🐍Use for Django && quickly develop simple scripts.    [default: true]{'\n'}
-        {'    '}-v, --visualize{'    '}📊Prefer vega-lite/R for data presentation.    [default: true]{'\n'}
-        {'    '}-f, --frontend {'    '}🌐Stay at the basic stage for Vue/React, just google. [default: false]{'\n'}
+        Welcome to my Blog!
       </CodeBlock>
 
     </section>

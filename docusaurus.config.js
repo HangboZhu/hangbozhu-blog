@@ -146,10 +146,11 @@ async function CreateConfig() {
                         type: 'dropdown',
                         label: '🎉Community',
                         position: 'left',
-                        items: [{
-                            label: 'Google Scholar',
-                            href: 'https://scholar.google.com/citations?user=AO4Qqk4AAAAJ&',
-                        },
+                        items: [
+                        //     {
+                        //     label: 'Google Scholar',
+                        //     href: 'https://scholar.google.com/citations?user=AO4Qqk4AAAAJ&',
+                        // },
                         // {
                         //     label: 'Matrix',
                         //     href: 'https://matrix.to/#/@wjwei:matrix.org',
@@ -162,11 +163,11 @@ async function CreateConfig() {
                         //     label: "💃JingyunLuo's Blog",
                         //     href: 'https://jingyunluo.github.io/',
                         // },
-                        {
-                            label: "🎤️talks",
-                            href: "/talks",
-                            target: "_blank",
-                        }
+                        // {
+                        //     label: "🎤️talks",
+                        //     href: "/talks",
+                        //     target: "_blank",
+                        // }
                             // {
                             //     type: 'doc',
                             //     label: 'my-first-docs/doc-A',

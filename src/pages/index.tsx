@@ -60,23 +60,23 @@ const slides = [
       </div>
     </div>
   </header>,
-  <header
-    className={clsx("hero hero--primary", styles.heroBanner, styles.slide)}>
-    <img className={styles.bkgimg} src="/img/westlake-starbucks.jpg" />
-    <div className={clsx("container", styles.storycontainer)}>
-      <h1 className="hero__title">志在必得</h1>
-      <p className="hero__subtitle">西湖大学面试前的小幸运🍀</p>
-      <div className={styles.button}>
-        <Link
-          className={clsx(
-            "button button--outline button--secondary button--lg",
-          )}
-          to="/blog/westlake-interview">
-          Read more
-        </Link>
-      </div>
-    </div>
-  </header>,
+  // <header
+  //   className={clsx("hero hero--primary", styles.heroBanner, styles.slide)}>
+  //   <img className={styles.bkgimg} src="/img/westlake-starbucks.jpg" />
+  //   <div className={clsx("container", styles.storycontainer)}>
+  //     <h1 className="hero__title">志在必得</h1>
+  //     <p className="hero__subtitle">西湖大学面试前的小幸运🍀</p>
+  //     <div className={styles.button}>
+  //       <Link
+  //         className={clsx(
+  //           "button button--outline button--secondary button--lg",
+  //         )}
+  //         to="/blog/westlake-interview">
+  //         Read more
+  //       </Link>
+  //     </div>
+  //   </div>
+  // </header>,
   // <header
   //   className={clsx("hero hero--primary", styles.heroBanner, styles.slide)}>
   //   <img className={styles.bkgimg} src="/img/blog/2024_1-2_bg.jpeg" />

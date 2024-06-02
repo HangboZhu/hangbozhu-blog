@@ -37,7 +37,7 @@ const DocGridList: Array<GridItemType> = [
   gridItem("Linux", "/docs/category/linux", linux),
   gridItem("Potpourri", "/docs/category/potpourri", potpourri),
   gridItem("Bio-Info", "/docs/category/bioinformatics", bioinfo),
-  gridItem("Rust", "/docs/category/rust", rust),
+  // gridItem("Rust", "/docs/category/rust", rust),
   gridItem("Python", "/docs/category/python", python),
   gridItem("Algorithm", "/docs/category/algorithm", algorithm),
   gridItem("R", "/docs/category/r", rlang),
