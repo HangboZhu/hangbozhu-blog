@@ -1,0 +1,10 @@
+{
+    "label": "NGS",
+    "position": 7,
+    "link": {
+        "type": "generated-index",
+        "description": "About NGS Analysis!!!Including scRNA-seq ,bulk RNA-seq and so on~~~",
+        "image": "/img/icon/design.png"
+    },
+    "collapsed": false
+}

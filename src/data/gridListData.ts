@@ -6,8 +6,9 @@ import rlang from "@site/static/img/icon/r.png";
 import bioinfo from "@site/static/img/icon/bioinformatics.png";
 // import django from "@site/static/img/icon/django.png";
 import rust from "@site/static/img/icon/rust.png";
-import algorithm from "@site/static/img/icon/algorithm.png";
-import potpourri from "@site/static/img/icon/tools.png";
+// import algorithm from "@site/static/img/icon/algorithm.png";
+// import potpourri from "@site/static/img/icon/tools.png";
+import ngs from "@site/static/img/icon/design.png";
 
 
 export interface GridItemType {
@@ -35,12 +36,13 @@ function gridItem(
 
 const DocGridList: Array<GridItemType> = [
   gridItem("Linux", "/docs/category/linux", linux),
-  gridItem("Potpourri", "/docs/category/potpourri", potpourri),
+  // gridItem("Potpourri", "/docs/category/potpourri", potpourri),
   gridItem("Bio-Info", "/docs/category/bioinformatics", bioinfo),
   // gridItem("Rust", "/docs/category/rust", rust),
   gridItem("Python", "/docs/category/python", python),
-  gridItem("Algorithm", "/docs/category/algorithm", algorithm),
+  // gridItem("Algorithm", "/docs/category/algorithm", algorithm),
   gridItem("R", "/docs/category/r", rlang),
+  gridItem("NGS", "/docs/category/NGS", ngs)
   // gridItem("Django", "/docs/category/django", django),
 ];
 

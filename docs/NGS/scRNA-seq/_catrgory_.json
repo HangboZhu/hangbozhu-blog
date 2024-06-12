@@ -1,0 +1,9 @@
+{
+    "label": "scRNA-seq分析",
+    "position": 1,
+    "link": {
+        "type": "generated-index",
+        "description": "基于Seurat的单细胞分析教程~~~"
+    },
+    "collapsed": true
+}
