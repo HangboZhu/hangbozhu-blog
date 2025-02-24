@@ -60,14 +60,14 @@ import styles from "./about-me.module.css";
 
 | 时间                  | 单位               | 专业                 | 学位       | 排名           |
 | --------------------- | ------------------ | -------------------- | ---------- | -------------- |
-| <div align="center">**2021.09 - 2025.06**</div> | <div align="center">**浙大宁波理工学院**</div> | <div align="center">**生物工程**</div> | <div align="center">**学士**</div> | <div align="center">**Rank:1%**</div> |
+| <div align="center">**2021.09 - 2025.06**</div> | <div align="center">**浙大宁波理工学院**</div> | <div align="center">**生物工程**</div> | <div align="center">**学士**</div> | <div align="center">**Rank:2%**</div> |
 | <div align="center">**2022.09 - 2024.06**</div> | <div align="center">**浙大宁波理工学院**</div> | <div align="center">**计算机科学与技术**</div> | <div align="center">**辅修**</div> | <div align="center">**Rank:1%**</div> |
 
 # 科研技能
 
 ---
 
-- ** 编程语言 **: Python; R; Shell;
+- ** 编程语言 **: Python; R; Shell; Java;
 - ** 生物信息分析 **
   - ** 单细胞相关 **: 单细胞转录组分析；时空转录组分析 等；
   - ** 转录组学 **: 常规 RNA-seq 分析流程；差异表达分析；转录本组装 等；
@@ -75,13 +75,16 @@ import styles from "./about-me.module.css";
 
 - ** 深度学习建模 **
   - ** 框架 **: 熟练掌握Pytorch, Tensorflow等深度学习框架，精通scikit-learn，熟悉模型的搭建，训练，测试等；
-  - ** 计算机视觉相关 **: 熟练掌握基于图像数据的模型搭建，了解常规的网络架构，包括ResNet, VggNet，熟悉目标检测算法的常用算法，如YOLO系列。
+  - ** 计算机视觉相关 **: 熟练掌握基于图像数据的模型搭建，了解常规的网络架构，包括ResNet, VggNet，熟悉目标检测算法的常用算法，如YOLO系列；
+  - ** 大模型相关 **: 基本掌握 Transformer 架构的核心原理，包括自注意力机制、多头注意力机制等关键组件，能够基于已有模型进行针对性微调，以适配不同业务场景需求；
   - ** 数据可视化 **: 熟练运用 R/ggplot2，Seaborn等工具进行可视化展示；
 - ** 编程素养 **
   - ** 工作环境 **: 熟练使用 Linux 系统；习惯使用并行加速分析流程；有良好的文件归类和环境管理习惯；
   - ** 记录与版本管理 **: 熟练使用 Git；习惯使用 Markdown 进行文档记录；
-  - ** 流程开发 **：熟练使用 Python 和 Shell 进行生信流程开发；大样本项目经验丰富；基本掌握 Snakemake 的使用；
+  - ** 流程开发 **：熟练使用 Python 和 Shell 进行生信流程开发；大样本项目经验丰富；
+  - ** 容器化技术 **：熟练使用 Docker 进行应用程序的容器化封装与部署，能够高效构建、管理和运行容器，确保环境一致性和应用的可移植性。
   - ** 代码规范 **: 基本掌握模块化编程思想；注重代码可读性、复用性、可测试性；遵循优良的代码规范；
+
 - ** 科研素养 **
   - 高效的文献分类、管理、检索工作流；
 
@@ -90,13 +93,12 @@ import styles from "./about-me.module.css";
 # 科研 & 工作经历
 
 ---
-
+## 本科期间
 <div className={styles.card}>
 <div className={styles.cardbody}>
 
-## 本科期间
 
-### 浙大宁波理工学院 酶分子改造实验室 导师：胡升 教授
+## 浙大宁波理工学院 酶分子改造实验室
 
 2022.03 - 至今
 
@@ -110,7 +112,8 @@ import styles from "./about-me.module.css";
 2. ** 基于深度学习的GFP蛋白发光值预测 **: 2024.04 - 至今 迁移学习；卷积神经网络；将蛋白值的二级结构信息与发光值相关联<sup>[2]</sup>
  - 使用迁移学习和深度学习开发了一个模型，以预测从氨基酸序列中获取的 GFP 蛋白的荧光强度；
  - 通过共进化分析，对氨基酸序列进行突变，并利用预测模型选择最佳序列；
- - 进行湿实验室实验验证突变序列的有效性。
+ - 进行湿实验室实验验证突变序列的有效性；
+ - 构建GFP发光值的数据库，支持**Blastn**快速检索；
 
 </div>
 </div>
@@ -118,9 +121,7 @@ import styles from "./about-me.module.css";
 <div className={styles.card}>
 <div className={styles.cardbody}>
 
-## 单细胞数据挖掘实习生
-
-### 中国科学院北京基因组研究所(国家生物信息中心) 指导老师：章张，降帅
+## 单细胞数据挖掘实习生 中国科学院北京基因组研究所(国家生物信息中心)
 
 2023.07 - 2023.09
 
@@ -136,12 +137,39 @@ import styles from "./about-me.module.css";
 </div>
 </div>
 
-# 开源项目
+<div className={styles.card}>
+<div className={styles.cardbody}>
 
----
+
+## 浙江农林大学 亚热带森林培育国家重点实验室
+
+2025.01 - 至今
+
+### 承担 / 参与课题：
+
+1. ** 基于深度学习的anti-CRISPR蛋白预测(DeepTransAcrs) ** 
+ - 使用 CD-HIT 对数据进行去冗余处理，有效去除重复序列，防止数据泄露（Data Leakage）；
+ - 运用大语言模型从氨基酸层面和结构层面提取特征，实现多维度数据获取；
+ - 开发并应用自研的特征融合模块，将提取的特征进行高效整合，提升预测模型的准确性；
+ - 利用 **FoldSeek** 对预测结果进行二次验证，确保模型的稳定性和准确性。
+
+
+2. ** 更新anti-CRISPRdb(still in processing) ** 
+  - 收集并整理 2022 年以后发表的经实验验证的 Acrs 蛋白数据；
+  - 对收集到的数据进行全面整理、汇总，并按照原有数据库格式进行规范化处理，完成数据库的更新;
+  - 将 **DeepTransAcrs** 模型部署至该网站平台，进一步完善网站的预测功能，提升其在 anti-CRISPR 蛋白预测方面的准确性和实用性
+
+</div>
+</div>
+
+
+## 开源项目
 
 - ### Is coming soon ......
 
+** Ready to develop a GPU-based software to accelerate GWAS analysis and make contributions to the bioinformatics community! **
+
+---
 
 
 # 研究方向 & 兴趣 & 目标
@@ -172,7 +200,7 @@ import styles from "./about-me.module.css";
 # 个人荣誉 & 奖励
 
 ---
-
+- ### 2024，第三届合成生物学竞赛蛋白质设计创新赛全国银奖 中国生物工程学会
 - ### 2023，全国大学生数学建模竞赛浙江赛区一等奖 中国工业与应用数学学会
 - ### 2023，美国大学生数学建模竞赛Honorable Mention 美国数学及其应用联合会(COMAP)
 - ### 2022,2023 三好学生 浙大宁波理工学院

@@ -9,6 +9,7 @@ import rust from "@site/static/img/icon/rust.png";
 // import algorithm from "@site/static/img/icon/algorithm.png";
 // import potpourri from "@site/static/img/icon/tools.png";
 import ngs from "@site/static/img/icon/design.png";
+import docker from "@site/static/img/icon/docker.png"
 
 
 export interface GridItemType {
@@ -42,7 +43,8 @@ const DocGridList: Array<GridItemType> = [
   gridItem("Python", "/docs/category/python", python),
   // gridItem("Algorithm", "/docs/category/algorithm", algorithm),
   gridItem("R", "/docs/category/r", rlang),
-  gridItem("NGS", "/docs/category/NGS", ngs)
+  gridItem("NGS", "/docs/category/NGS", ngs),
+  gridItem("Docker", "/docs/category/Docker", docker)
   // gridItem("Django", "/docs/category/django", django),
 ];
 
